@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -168,6 +168,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		3DD7FB4B248BF4FB004F346E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		3DFC1FB2248BBFA700440FE6 = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +196,7 @@
 		3DFC1FBD248BBFA700440FE6 /* CinemaSalon */ = {
 			isa = PBXGroup;
 			children = (
+				3DD7FB4B248BF4FB004F346E /* Extensions */,
 				3DFC1FD5248BBFD500440FE6 /* Supports */,
 				3DFC1FD2248BBFB700440FE6 /* Scene */,
 			);
@@ -257,7 +265,6 @@
 				2EB02460910084B4F97206A3 /* Pods-CinemaSalon.debug.xcconfig */,
 				FDDAEF25DC3F27FB15211CB6 /* Pods-CinemaSalon.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

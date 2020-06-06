@@ -6,4 +6,11 @@
 //  Copyright © 2020 elesahich. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension CGFloat {
+    static func random(max: Int) -> CGFloat {
+        
+        return CGFloat(arc4random() % UInt32(max))
+    }
+}

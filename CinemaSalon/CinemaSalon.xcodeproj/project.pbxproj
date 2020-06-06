@@ -12,9 +12,9 @@
 		3D615DDC248BD75800760B6E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D615DDB248BD75800760B6E /* Login.storyboard */; };
 		3DF49727248BFD0800C33C3A /* DropItView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF49726248BFD0800C33C3A /* DropItView.swift */; };
 		3DF49729248BFD9700C33C3A /* Extensions+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF49728248BFD9700C33C3A /* Extensions+UIKit.swift */; };
+		3DF98A08248C01E0008E3335 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF98A07248C01E0008E3335 /* MainVC.swift */; };
 		3DFC1FBF248BBFA700440FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC1FBE248BBFA700440FE6 /* AppDelegate.swift */; };
 		3DFC1FC1248BBFA700440FE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC1FC0248BBFA700440FE6 /* SceneDelegate.swift */; };
-		3DFC1FC3248BBFA700440FE6 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC1FC2248BBFA700440FE6 /* MainVC.swift */; };
 		3DFC1FC6248BBFA700440FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC1FC4248BBFA700440FE6 /* Main.storyboard */; };
 		3DFC1FC8248BBFAA00440FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC1FC7248BBFAA00440FE6 /* Assets.xcassets */; };
 		3DFC1FCB248BBFAA00440FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC1FC9248BBFAA00440FE6 /* LaunchScreen.storyboard */; };
@@ -28,10 +28,10 @@
 		3D615DDB248BD75800760B6E /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		3DF49726248BFD0800C33C3A /* DropItView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropItView.swift; sourceTree = "<group>"; };
 		3DF49728248BFD9700C33C3A /* Extensions+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIKit.swift"; sourceTree = "<group>"; };
+		3DF98A07248C01E0008E3335 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		3DFC1FBB248BBFA700440FE6 /* CinemaSalon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinemaSalon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DFC1FBE248BBFA700440FE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DFC1FC0248BBFA700440FE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3DFC1FC2248BBFA700440FE6 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		3DFC1FC5248BBFA700440FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DFC1FC7248BBFAA00440FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DFC1FCA248BBFAA00440FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -231,8 +231,8 @@
 		3DFC1FD4248BBFB700440FE6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				3DFC1FC2248BBFA700440FE6 /* MainVC.swift */,
 				3DF49726248BFD0800C33C3A /* DropItView.swift */,
+				3DF98A07248C01E0008E3335 /* MainVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -393,7 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DF49727248BFD0800C33C3A /* DropItView.swift in Sources */,
-				3DFC1FC3248BBFA700440FE6 /* MainVC.swift in Sources */,
+				3DF98A08248C01E0008E3335 /* MainVC.swift in Sources */,
 				3DF49729248BFD9700C33C3A /* Extensions+UIKit.swift in Sources */,
 				3DFC1FBF248BBFA700440FE6 /* AppDelegate.swift in Sources */,
 				3DFC1FC1248BBFA700440FE6 /* SceneDelegate.swift in Sources */,

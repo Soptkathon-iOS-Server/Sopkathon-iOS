@@ -35,13 +35,13 @@ class DropItView: UIView {
     private let dropsPerRow = 1
     
     private var dropSize: CGSize {
-        let size = bounds.size.width / CGFloat(dropsPerRow)
-        return CGSize(width: size, height: size)
+        let size = bounds.size.width - 100 / CGFloat(dropsPerRow)
+        return CGSize(width: size, height: 55)
     }
     
     func addDrop() {
         
-        var frame = CGRect(origin: CGPoint.zero, size: dropSize)
+        var frame = CGRect.init(origin: CGPoint(x: 60, y: 0), size: dropSize)
         frame.origin.x = CGFloat.random(max: dropsPerRow) * dropSize.width
         
         let drop = UIView(frame: frame)

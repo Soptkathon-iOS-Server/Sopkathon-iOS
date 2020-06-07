@@ -31,7 +31,7 @@
 
 <img src="../Screenshots/login1.png" width="40%" height="40%"><img src="../Screenshots/login2.png" width="40%" height="40%"> </br>
 
-- (주요) 홈 화면
+- (주요) 홈 화면 <br>
   <img src="../Screenshots/login1.png" width="40%" height="40%"><img src="../Screenshots/login2.png" width="40%" height="40%"> </br>
 
 * Search View
